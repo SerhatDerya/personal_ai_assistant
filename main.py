@@ -105,10 +105,10 @@ def respond(audio):
         driver.get("https://kampus.izu.edu.tr/login")
 
         username_box = driver.find_element(by=By.ID, value="user_name")
-        username_box.send_keys("derya.serhat@std.izu.edu.tr")
+        username_box.send_keys("example.mail@std.izu.edu.tr")
 
         password_box = driver.find_element(by=By.NAME, value="password")
-        password_box.send_keys("Tahres.2bin1")
+        password_box.send_keys("password")
 
         login_button = driver.find_element(by=By.CLASS_NAME, value="submit")
         login_button.click()
